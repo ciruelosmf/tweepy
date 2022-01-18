@@ -1,19 +1,16 @@
 import tweepy
 
-
 consumer_key = "T0ohellogCDRBWrwP"
 
 consumer_secret="NguxUwhellohellohello6uNLEwbTrPamGoB"
+
 access_token = "13655466hellohellohelloijcWPtW5PRC8"
 
 access_token_secret = "HwgU78hello2NUhellohellohellohelloykmFGs6MitFBzo6KymJv"
 
 bearer_token = "AAAAAAAAhelloAAAAAAAAAAhellohellohellohelloEF1VxB206UNzxZZcteW5taV9EEj9"
 
-
 file_name = "hola.txt"
-
-
 
 client = tweepy.Client(
     consumer_key=consumer_key, consumer_secret=consumer_secret,
