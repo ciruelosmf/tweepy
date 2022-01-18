@@ -2,13 +2,19 @@ import random
 import tweepy
 import tweet_thread_function
 
-consumer_key = "T0o63gCDRBWrwP"
-consumer_secret="N3GoB"
-access_token = "13655463IZUrQ7OrcCEMijcWPtW5PRC8"
-access_token_secret = "HwgU78AkT2NU3FGs6MitFBzo6KymJv"
-bearer_token = "AAAAAAA2NzxZZcteW5taV9EEj9"
+consumer_key = "T0o63ghelloBWrwP"
+consumer_secret="N3helloGoB"
+access_token = "1365helloWPtW5PRC8"
+access_token_secret = "HwgU78hellotFBzo6KymJv"
+bearer_token = "AAAAAAAhiEEj9"
 
-file_name = "list.txt"
+
+client = tweepy.Client(
+    consumer_key=consumer_key, consumer_secret=consumer_secret,
+    access_token=access_token, access_token_secret=access_token_secret, bearer_token=bearer_token
+)
+
+
 list_links = [
     ['https://twitter.com/1DeepNote/status/1476887157218463745'],
  ['https://twitter.com/heyeaslo/status/1477822027507519489'],
@@ -99,13 +105,8 @@ list_links = [
 
 
 
-"""
-"""
-client = tweepy.Client(
-    consumer_key=consumer_key, consumer_secret=consumer_secret,
-    access_token=access_token, access_token_secret=access_token_secret, bearer_token=bearer_token
-)
-#auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+
+
 
 
 if __name__ == "__main__":
